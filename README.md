@@ -239,7 +239,6 @@ class CarFactoryProvider extends DeferredServiceProvider
     public function provides(): array
     {
         return [
-            
             CarFactory::class,
             CarInterface::class,
             EngineInterface::class,
